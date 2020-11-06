@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718e2a4f-2bde-4d02-967f-89990dbc1359" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/benchmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fact.js" beforeDir="false" afterPath="$PROJECT_DIR$/fact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       <workItem from="1604618300216" duration="1778000" />
       <workItem from="1604669769433" duration="1450000" />
       <workItem from="1604671538645" duration="325000" />
-      <workItem from="1604672064254" duration="3071000" />
+      <workItem from="1604672064254" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="added factRecurive, factIterative&#10;added benchmark">
       <created>1604674752898</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604674873289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added fact dynamic programming">
+      <created>1604675648466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604675648466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added factRecurive, factIterative&#10;added benchmark" />
     <MESSAGE value="fix bug in workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug in workflow" />
+    <MESSAGE value="added fact dynamic programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fact dynamic programming" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

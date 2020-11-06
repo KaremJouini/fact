@@ -23,6 +23,9 @@ function factIterative(n) {
 }
 
 function factDP(n) {
+    if (n < 0) {
+        return -1
+    }
     let table = [];
 
     table[0] = 1;
