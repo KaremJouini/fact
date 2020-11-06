@@ -1,6 +1,7 @@
 const Benchmark = require('benchmark');
 const factIterative = require("./fact");
 const factRecursive = require("./fact");
+const factDP = require("./fact");
 
 const suite = new Benchmark.Suite();
 suite.add("fact recursive", function () {
@@ -8,6 +9,9 @@ suite.add("fact recursive", function () {
 });
 suite.add("fact iterative ", function () {
     factIterative(500)
+});
+suite.add("fact dynamic programming ", function () {
+    factDP(500)
 });
 
 

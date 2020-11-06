@@ -22,6 +22,17 @@ function factIterative(n) {
     return result
 }
 
+function factDP(n) {
+    let table = [];
+
+    table[0] = 1;
+
+    for (let i = 1; i <= n; i++) {
+        table[i] = i * table[i - 1];
+    }
+    return table[n];
+}
+
 
 function fact(n) {
     return factIterative(n)
@@ -30,3 +41,4 @@ function fact(n) {
 module.exports = fact
 module.exports = factRecursive
 module.exports = factIterative
+module.exports = factDP

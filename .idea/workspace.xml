@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718e2a4f-2bde-4d02-967f-89990dbc1359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/node.js.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fact.js" beforeDir="false" afterPath="$PROJECT_DIR$/fact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fact.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/fact.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,11 +109,34 @@
       <workItem from="1604618300216" duration="1778000" />
       <workItem from="1604669769433" duration="1450000" />
       <workItem from="1604671538645" duration="325000" />
-      <workItem from="1604672064254" duration="2163000" />
+      <workItem from="1604672064254" duration="3071000" />
     </task>
+    <task id="LOCAL-00001" summary="added factRecurive, factIterative&#10;added benchmark">
+      <created>1604674752898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674752898</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix bug in workflow">
+      <created>1604674873289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674873289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added factRecurive, factIterative&#10;added benchmark" />
+    <MESSAGE value="fix bug in workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug in workflow" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
