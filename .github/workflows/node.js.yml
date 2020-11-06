@@ -30,7 +30,7 @@ jobs:
 
 
   test:
-    name: Test Build
+    name: Test / Benchmark
     runs-on: ubuntu-latest
 
     strategy:
@@ -43,7 +43,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Test
+      - name: Install dependancies
+        run: make install
+
+      - name: Unit test
         run: make test
 
       - name: Benchmark
